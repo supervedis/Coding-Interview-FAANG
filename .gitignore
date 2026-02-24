@@ -4,6 +4,7 @@
 *.dll
 *.obj
 *.o
+*.out
 
 # Dependencies
 node_modules/
