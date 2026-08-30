@@ -6,6 +6,51 @@
 **/*.o
 **/*.out
 
+# Ignore everything in Arrays, LinkedList, Strings by default
+**/Arrays/**/*
+**/LinkedList/**/*
+**/Strings/**/*
+
+# Allow common source file extensions at any level
+!**/Arrays/**/*.cpp
+!**/Arrays/**/*.c
+!**/Arrays/**/*.h
+!**/Arrays/**/*.py
+!**/Arrays/**/*.java
+!**/Arrays/**/*.js
+!**/Arrays/**/*.ts
+!**/Arrays/**/*.go
+!**/Arrays/**/*.rs
+!**/Arrays/**/*.rb
+!**/Arrays/**/*.php
+!**/LinkedList/**/*.cpp
+!**/LinkedList/**/*.c
+!**/LinkedList/**/*.h
+!**/LinkedList/**/*.py
+!**/LinkedList/**/*.java
+!**/LinkedList/**/*.js
+!**/LinkedList/**/*.ts
+!**/LinkedList/**/*.go
+!**/LinkedList/**/*.rs
+!**/LinkedList/**/*.rb
+!**/LinkedList/**/*.php
+!**/Strings/**/*.cpp
+!**/Strings/**/*.c
+!**/Strings/**/*.h
+!**/Strings/**/*.py
+!**/Strings/**/*.java
+!**/Strings/**/*.js
+!**/Strings/**/*.ts
+!**/Strings/**/*.go
+!**/Strings/**/*.rs
+!**/Strings/**/*.rb
+!**/Strings/**/*.php
+
+# Allow subdirectories to be traversed
+!**/Arrays/**/
+!**/LinkedList/**/
+!**/Strings/**/
+
 # Dependencies
 **/node_modules/
 **/vendor/
@@ -27,13 +72,11 @@
 **/*.log
 **/logs/
 
-# Allow specific file extensions for C and C++
-!*.cpp
-!*.c
-!*.h
-
 # Allow directories (so we can traverse into them)
 !*/
 
-#Allow .gitignore itself
+# Allow .gitignore itself
 !.gitignore
+
+# Allow README.md
+!README.md
