@@ -1,28 +1,28 @@
 # Compiled files
-*.class
-*.exe
-*.dll
-*.obj
-*.o
-*.out
+**/*.class
+**/*.exe
+**/*.dll
+**/*.obj
+**/*.o
+**/*.out
 
 # Dependencies
-node_modules/
-vendor/
+**/node_modules/
+**/vendor/
 
 # Environment files
-.env
-.env.local
+**/.env
+**/.env.local
 
 # IDE files
-.vscode/
-.idea/
-*.swp
+**/.vscode/
+**/.idea/
+**/*.swp
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
 # Logs
-*.log
-logs/
+**/*.log
+**/logs/
