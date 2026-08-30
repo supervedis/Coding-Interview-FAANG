@@ -21,8 +21,19 @@
 
 # OS generated files
 .DS_Store
-Thumbs.db
+**/Thumbs.db
 
 # Logs
 **/*.log
 **/logs/
+
+# Allow specific file extensions for C and C++
+!*.cpp
+!*.c
+!*.h
+
+# Allow directories (so we can traverse into them)
+!*/
+
+#Allow .gitignore itself
+!.gitignore
